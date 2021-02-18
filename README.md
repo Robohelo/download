@@ -10,6 +10,7 @@ Download it manually or use the command below.
 $ cd ~
 $ wget https://github.com/Robohelo/PEC-Downloads/archive/main.zip
 $ unzip main.zip
+# rename folder
 $ mv PEC-Downloads-main PEC
 ```
 ### Run installer
