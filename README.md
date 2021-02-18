@@ -19,7 +19,7 @@ Make installer executable.
 # Go into PEC folder.
 $ cd ~/PEC
 # make it executable
-$ chmod x+ installer.sh
+$ chmod +x install.sh
 # run installer
-$ ./installer.sh
+$ ./install.sh
 ```
