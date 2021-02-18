@@ -14,7 +14,7 @@ $ unzip main.zip
 $ mv PEC-Downloads-main PEC
 ```
 ### Run installer
-Make installer executable.
+Make installer executable and run it.
 
 ```bash
 # Go into PEC folder.
