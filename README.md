@@ -1,15 +1,25 @@
 # PEC-Downloads
 Download reposotory for PEC.
 
-##Install instruction
-First download
-```bash
-# Download repositories into home
-$ cd ~
-$ wget https://github.com/Robohelo/PEC-Downloads.git
-$ unzip 
-$ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+## Install instruction
+### First download the files.
+Download it manually or use the command below.
 
-$ sudo apt-get update && sudo apt-get install -y nvidia-docker2
-$ sudo systemctl restart docker
+```bash
+# Download repositorie into home.
+$ cd ~
+$ wget https://github.com/Robohelo/PEC-Downloads/archive/main.zip
+$ unzip main.zip
+$ mv PEC-Downloads-main PEC
+```
+### Run installer
+Make installer executable.
+
+```bash
+# Go into PEC folder.
+$ cd ~/PEC
+# make it executable
+$ chmod x+ installer.sh
+# run installer
+$ ./installer.sh
 ```
