@@ -101,7 +101,7 @@ sudo chown -R robohelo:robohelo ~/.local/share/
 # Install jupyter_clickable_image_widget
 echo "\e[42m Install jupyter_clickable_image_widget \e[0m"
 cd
-sudo apt-get install libssl1.0-dev
+sudo apt-get install -y libssl1.0-dev
 git clone https://github.com/jaybdub/jupyter_clickable_image_widget
 cd jupyter_clickable_image_widget
 git checkout tags/v0.1
