@@ -41,7 +41,7 @@ sudo -H pip3 install jetson-stats
 
 # Install the pre-built TensorFlow pip wheel
 echo -e "\e[48;5;202m Install the pre-built TensorFlow pip wheel \e[0m"
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install -y libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
 sudo apt-get install -y python3-pip
 sudo pip3 install -U pip testresources setuptools numpy==1.16.1 future==0.17.1 mock==3.0.5 h5py==2.9.0 keras_preprocessing==1.0.5 keras_applications==1.0.8 gast==0.2.2 futures protobuf pybind11
@@ -157,8 +157,8 @@ git clone https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware
 cd linux-firmware/
 sudo cp iwlwifi-cc-a0-48.ucode /lib/firmware
 cd /home/$USER/Downloads/
-rm backport-iwlwifi
-rm linux-firmware
+rm -rf backport-iwlwifi
+rm -rf linux-firmware
 
 
 # Optimize the system configuration to create more headroom
