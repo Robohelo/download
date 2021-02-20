@@ -2,7 +2,7 @@
 
 set -e
 
-password='roBo40#lIve'
+password='Passwort1'
 
 # Record the time this script starts
 date

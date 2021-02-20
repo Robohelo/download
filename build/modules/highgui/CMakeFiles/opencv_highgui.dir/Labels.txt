@@ -1,0 +1,35 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+/tmp/build_opencv/opencv/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/modules/highgui/src/roiSelector.cpp
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/modules/highgui/src/window_gtk.cpp
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+/tmp/build_opencv/opencv/build/cvconfig.h
+/tmp/build_opencv/opencv/build/opencv2/opencv_modules.hpp
