@@ -122,7 +122,7 @@ sudo apt-get install -y cmake
 #sudo python3 setup.py install 
 
 ## Install jetbot services
-cd jetbot/utils
+cd
 #python3 create_stats_service.py
 #sudo mv jetbot_stats.service /etc/systemd/system/jetbot_stats.service
 #sudo systemctl enable jetbot_stats
