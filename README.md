@@ -7,20 +7,20 @@ Download it manually or use the command below.
 
 ```bash
 # Download repositorie into home.
-$ cd ~
-$ wget https://github.com/Robohelo/PEC-Downloads/archive/main.zip
-$ unzip main.zip
+cd ~
+wget https://github.com/Robohelo/PEC-Downloads/archive/main.zip
+unzip main.zip
 # rename folder
-$ mv PEC-Downloads-main PEC
+mv PEC-Downloads-main PEC
 ```
 ### Run installer
 Make installer executable and run it.
 
 ```bash
 # Go into PEC folder.
-$ cd ~/PEC
+cd ~/PEC
 # make it executable
-$ chmod +x setup.sh
+chmod +x setup.sh
 # run installer
-$ ./setup.sh
+./setup.sh
 ```
